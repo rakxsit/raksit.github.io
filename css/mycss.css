@@ -1,0 +1,82 @@
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+	height: auto;
+	width: 100%;
+}
+
+/* Smaller jumbotron for division */
+.jumbotron.section-banner {
+  padding: 1rem 2rem;
+}
+
+/* Play with formatting of row */
+.row {
+	padding: 20px 0px;
+}
+
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+/* Shift anchor to account for sticky tab */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -4.5rem;
+    visibility: hidden;
+}
+
+/* Description class */
+div.description {
+	text-align: justify;
+/*	text-align-last: right; */
+	padding: 0rem 0.5rem;
+}
+
+/* Make carousel indicators circles */
+.carousel-indicators li {
+	height: 1rem;
+	width: 1rem;
+	border-radius: 100%;
+}
+
+/* td align left */
+td {
+	text-align: left;
+}
+
+/* Make header with symbol to side */
+.dropheader {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	font-size: 24px;
+}
+
+.dropheader::before {
+	font-family: "Material Icons";
+	content: "arrow_drop_down";
+	font-size: 30px;
+	-webkit-font-feature-settings: 'liga' 1;
+	-moz-font-feature-settings: 'liga' 1;
+	font-feature-settings: 'liga' 1;
+}
+
+/* Style icons */
+i.pdf {
+	color:red;
+	font-size: 1.5em;
+}
+
+i.mov {
+	font-size: 1.3em;
+}
+
+i.book {
+	font-size: 1.2em;
+	color:gray;
+}
